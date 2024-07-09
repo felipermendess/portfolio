@@ -1,5 +1,5 @@
 # Projeto Portfólio Pessoal
-Criei um currículo online para iniciar uma presença digital e divulgar meus projetos e habilidades para uma apresentação de perfil<br> profissional.
+Criei um currículo online para iniciar uma presença digital e divulgar meus projetos e habilidades para uma apresentação de perfil profissional.
 
 ## Tecnologias Utilizadas
 ![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)<br>
