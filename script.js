@@ -16,3 +16,15 @@ function initAtivaScrollSuave(){
   })
 }
 initAtivaScrollSuave();
+
+function ativeHandleClickBickraft(){
+  const linkBikcraft = document.querySelector('.bikcraft');
+
+  function handleClickBickcraft(event){
+    event.preventDefault();
+    alert('Projeto em andamento!');
+  }
+
+  linkBikcraft.addEventListener('click', handleClickBickcraft);
+}
+ativeHandleClickBickraft();
