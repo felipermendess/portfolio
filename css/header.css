@@ -2,12 +2,11 @@
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     box-sizing: border-box;
     margin: 0 auto;
     align-items: center;
-    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .header-menu{
@@ -19,7 +18,7 @@
 .header-menu a{
     padding: 16px 0;
     color: #E6F0FA;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     font-family: 'Poppins';
     font-weight: 400;
@@ -41,3 +40,72 @@
 .header-menu a:hover::after{
     width: 100%;
 }
+
+.buttonMenu{
+    display: none;
+}
+
+/*Breakpoints*/
+@media(max-width: 768px){
+    .buttonMenu{
+        display: flex;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        padding: .5rem 1rem;
+        border-radius: 4px;
+        font-family: 'Poppins';
+        font-weight: bold;
+        color: #E6F0FA;
+        margin: 10px;
+        align-items: center;
+        z-index: 300;
+        position: relative;
+        font-size: 18px;
+    }
+    .buttonMenu::before{
+        margin-right: 6px;
+        content: '';
+        display: inline-block;
+        height: 3px;
+        width: 12px;
+        background-color: #E6F0FA;
+        box-shadow: 0 5px #E6F0FA, 0 -5px #E6F0FA;
+        transition: .3s transform;
+    }
+    .header-menu{
+        display: none;
+        position: absolute;
+        background-color: #132950;
+        z-index: 200;
+        padding: 80px 24px 0px 24px;
+        top: 0;
+        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    }
+    .buttonMenu.active::before{
+        transform: rotate(90deg);
+    }
+    .header-menu.active{
+        display: block;
+        animation: show-left .3s forwards;
+    }
+}
+
+@media(max-width: 480px){
+    
+}
+
+@media(max-width: 320px){
+    
+}
+
+@keyframes show-left{
+    from{
+      opacity: 0;
+      transform: translate3d(30px,0,0);
+    }
+    to{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
+  }
