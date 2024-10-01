@@ -52,38 +52,28 @@
         border: none;
         background-color: transparent;
         cursor: pointer;
-        padding: .5rem 1rem;
+        padding: .1rem 1rem;
         border-radius: 4px;
         font-family: 'Poppins';
-        font-weight: bold;
+        font-weight: 500;
         color: #E6F0FA;
         margin: 10px;
         align-items: center;
         z-index: 300;
         position: relative;
-        font-size: 18px;
+        font-size: 22px;
     }
-    .buttonMenu::before{
+    .icon{
         margin-right: 6px;
-        content: '';
-        display: inline-block;
-        height: 3px;
-        width: 12px;
-        background-color: #E6F0FA;
-        box-shadow: 0 5px #E6F0FA, 0 -5px #E6F0FA;
-        transition: .3s transform;
     }
     .header-menu{
         display: none;
         position: absolute;
         background-color: #132950;
         z-index: 200;
-        padding: 80px 24px 0px 24px;
+        padding: 70px 32px 0px 32px;
         top: 0;
         box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
-    }
-    .buttonMenu.active::before{
-        transform: rotate(90deg);
     }
     .header-menu.active{
         display: block;

@@ -3,16 +3,16 @@ export default function menuMobile(){
     const menuList = document.querySelector('.header-menu');
     
     function openMenu(event){
-        if(menuList.classList.contains('active') && buttonMenu.classList.contains('active') ){
+        if(menuList.classList.contains('active')){
             menuList.classList.remove('active');
-            buttonMenu.classList.remove('active');
+            document.querySelector('.icon').src = "img/buttonMenu.svg";
         }else{
             menuList.classList.add('active');
-            buttonMenu.classList.add('active');
+            document.querySelector('.icon').src = "img/closeMenu.svg";
         }
+        
     }
     
     buttonMenu.addEventListener('click', openMenu);
-    buttonMenu.addEventListener('touchstart', openMenu);
 }
 
