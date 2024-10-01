@@ -1,5 +1,5 @@
 ## Projeto Portfólio Pessoal
-O projeto é uma criação de um currículo online para iniciar uma presença digital e divulgar meus projetos e habilidades para uma apresentação de perfil profissional. O objetivo do portfólio é apresentar minhas competências para divulgar minha carreira profissional.
+O projeto consiste na criação de um currículo online com o objetivo de iniciar uma presença digital e promover minha carreira profissional. O foco principal é exibir meus projetos, habilidades e experiências de forma clara, profissional e visualmente atraente. O portfólio serve como uma vitrine para destacar minhas capacidades e conquistas, proporcionando uma maneira eficaz de divulgar minhas qualificações ao público.
 
 ## Contribuição 
 Contribuições para a evolução do projeto são sempre bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para me notificar.
