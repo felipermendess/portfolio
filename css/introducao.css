@@ -1,0 +1,30 @@
+.introducao{
+    margin-top: 80px;
+}
+
+.introducao-titulo{
+    text-align: center;
+    color: #E6F0FA;
+    font-family: 'Poppins';
+    font-size: 52px;
+}
+
+.introducao-titulo span{
+    color: #A3C9F1;
+}
+
+.introducao-subtitulo{
+    text-align: center;
+    color: #E6F0FA;
+    margin-top: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.introducao-texto{
+    color: #E6F0FA;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
