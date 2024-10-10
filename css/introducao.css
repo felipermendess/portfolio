@@ -6,7 +6,9 @@
     text-align: center;
     color: #E6F0FA;
     font-family: 'Poppins';
-    font-size: 52px;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .introducao-titulo span{
@@ -16,15 +18,50 @@
 .introducao-subtitulo{
     text-align: center;
     color: #E6F0FA;
-    margin-top: 16px;
+    margin-top: 18px;
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 32px;
 }
 
 .introducao-texto{
     color: #E6F0FA;
+    margin-top: 34px;
     text-align: center;
-    margin-top: 24px;
     font-size: 18px;
     font-family: 'Roboto';
+    line-height: 1.5;
 }
+
+.introducao-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+    gap: 20px;
+}
+
+.introducao-info .cv{
+    color: #A3C9F1;
+    border: 2px solid #A3C9F1;
+    padding: 10px;
+    font-family: 'Roboto';
+    transition: .4s;
+}
+
+.introducao-info .cv:hover{
+    color: #0A1F44;
+    background-color: #A3C9F1;
+}
+
+
+/* /Breakpoints/
+@media(max-width: 1200px){}
+
+@media(max-width: 1024px){}
+
+@media(max-width: 768px){}
+
+@media(max-width: 480px){}
+
+@media(max-width: 320px){} */
