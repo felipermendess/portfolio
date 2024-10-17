@@ -28,7 +28,7 @@
     color: #E6F0FA;
     margin-top: 34px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Roboto';
     line-height: 1.5;
 }
@@ -42,18 +42,36 @@
 }
 
 .introducao-info .cv{
+    display: block;
+    cursor: pointer;
     color: #A3C9F1;
     border: 2px solid #A3C9F1;
     padding: 10px;
     font-family: 'Roboto';
-    transition: .4s;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    font-weight: 500;
 }
 
-.introducao-info .cv:hover{
+.introducao-info .cv:hover, .introducao-info .cv:focus{
     color: #0A1F44;
-    background-color: #A3C9F1;
 }
 
+.introducao-info .cv::before{
+    content: '';
+    position: absolute;
+    background-color: #A3C9F1;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: right 0.3s ease-in-out;
+}
+
+.introducao-info .cv:hover::before, .introducao-info .cv:focus::before{
+    right: 0;
+}
 
 /* /Breakpoints/
 @media(max-width: 1200px){}
