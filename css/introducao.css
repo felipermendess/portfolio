@@ -73,13 +73,50 @@
     right: 0;
 }
 
-/* /Breakpoints/
-@media(max-width: 1200px){}
+@media(max-width: 1200px){
+    .introducao-titulo{
+        font-size: 52px;
+    }
+}
 
-@media(max-width: 1024px){}
+@media(max-width: 1024px){
+    .introducao-titulo{
+        font-size: 44px;
+    }
+    .introducao-subtitulo{
+        font-size: 28px;
+    }
+    .introducao-texto{
+        font-size: 18px;
+    }
+}
 
-@media(max-width: 768px){}
+@media(max-width: 768px){
+    .introducao-titulo{
+        font-size: 34px;
+    }
+    .introducao-subtitulo{
+        font-size: 24px;
+    }
+    .introducao-texto{
+        font-size: 14px;
+    }
+}
 
-@media(max-width: 480px){}
+@media(max-width: 480px){
+    .introducao-titulo{
+        font-size: 22px;
+    }
+    .introducao-subtitulo{
+        font-size: 18px;
+    }
+}
 
-@media(max-width: 320px){} */
+@media(max-width: 320px){
+    .introducao-titulo{
+        font-size: 18px;
+    }
+    .introducao-subtitulo{
+        font-size: 14px;
+    }
+} 
