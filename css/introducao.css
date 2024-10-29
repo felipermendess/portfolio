@@ -20,7 +20,7 @@
     color: #E6F0FA;
     margin-top: 18px;
     font-family: 'Poppins';
-    font-weight: 600;
+    font-weight: 500;
     font-size: 32px;
 }
 
@@ -75,7 +75,7 @@
 
 @media(max-width: 1200px){
     .introducao-titulo{
-        font-size: 52px;
+        font-size: 50px;
     }
 }
 
@@ -92,31 +92,56 @@
 }
 
 @media(max-width: 768px){
+    .introducao{
+        margin-top: 60px;
+    }
     .introducao-titulo{
         font-size: 34px;
     }
     .introducao-subtitulo{
         font-size: 24px;
+        margin-top: 12px;
     }
     .introducao-texto{
-        font-size: 14px;
+        font-size: 17px;
+        margin-top: 26px;
+    }
+}
+
+@media(max-width: 650px){
+    .introducao-texto{
+        display: none;
     }
 }
 
 @media(max-width: 480px){
+    .introducao{
+        margin-top: 40px;
+    }
     .introducao-titulo{
-        font-size: 22px;
+        font-size: 26px;
+        margin: 0px 10px 0px 10px;
     }
     .introducao-subtitulo{
         font-size: 18px;
+    }
+    .introducao-info{
+        margin-top: 28px;
+        gap: 12px;
+    }
+    .introducao-info .cv{
+        padding: 8px;
     }
 }
 
 @media(max-width: 320px){
+    .introducao{
+        margin-top: 32px;
+    }
     .introducao-titulo{
-        font-size: 18px;
+        font-size: 22px;
     }
     .introducao-subtitulo{
-        font-size: 14px;
+        font-size: 16px;
     }
 } 
