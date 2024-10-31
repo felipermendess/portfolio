@@ -126,7 +126,7 @@
         font-size: 18px;
     }
     .introducao-info{
-        margin-top: 28px;
+        margin-top: 24px;
         gap: 12px;
     }
     .introducao-info .cv{
@@ -143,5 +143,8 @@
     }
     .introducao-subtitulo{
         font-size: 16px;
+    }
+    .introducao-info{
+        margin-top: 20px;
     }
 } 
