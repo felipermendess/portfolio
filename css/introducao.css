@@ -147,4 +147,31 @@
     .introducao-info{
         margin-top: 20px;
     }
+    .introducao-info .cv{
+        padding: 6px;
+        font-size: 12px;
+    }
+    .arrow-right-up{
+        width: 12px;
+        height: 12px;
+    }
+    .github, .linkedin{
+        width: 30px;
+        height: 30px;
+    }
+} 
+
+@media(max-width: 250px){
+    .introducao-info .cv{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .arrow-right-up{
+        width: 10px;
+        height: 10px;
+    }
+    .github, .linkedin{
+        width: 25px;
+        height: 25px;
+    }
 } 
