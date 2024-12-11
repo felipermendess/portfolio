@@ -1,5 +1,9 @@
 .projetos{
     margin-top: 80px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
 
 .projetos h2{
@@ -7,15 +11,57 @@
     color: #E6F0FA;
     font-weight: 600;
     font-family: 'Poppins';
+    font-size: 32px;
 }
 
 .cards{
     display: flex;
     gap: 40px;
+    margin: 40px 10px;
 }
 
 .card-projeto-1, .card-projeto-2, .card-projeto-3{
     background-color: #132950;
-    margin-top: 40px;
     border-radius: 4px;
+    text-align: center;
+    color: #E6F0FA;
+}
+
+.card-projeto-1 h3, .card-projeto-2 h3, .card-projeto-3 h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.card-projeto-1 p, .card-projeto-2 p, .card-projeto-3 p{
+    margin: 0px 23px 24px 23px;
+    font-size: 18px;
+}
+
+.card-projeto-1 span, .card-projeto-2 span, .card-projeto-3 span{
+    font-family: 'Poppins';
+    background-color: #1B3A5F;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 6px;
+    margin-right: 4px;
+}
+
+.links-projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 26px auto 28px auto;
+}
+
+.links-projetos a{
+    margin-right: 8px;
+}
+
+.bi-arrow-up-right2{
+    color: #A3C9F1;
+    width: 23px;
+    height: 23px;
 }
