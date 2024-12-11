@@ -73,6 +73,7 @@
     right: 0;
 }
 
+/*Breakpoints*/
 @media(max-width: 1200px){
     .introducao-titulo{
         font-size: 50px;
