@@ -1,0 +1,21 @@
+.projetos{
+    margin-top: 80px;
+}
+
+.projetos h2{
+    text-align: center;
+    color: #E6F0FA;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+}
+
+.card-projeto-1, .card-projeto-2, .card-projeto-3{
+    background-color: #132950;
+    margin-top: 40px;
+    border-radius: 4px;
+}
