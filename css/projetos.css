@@ -79,6 +79,7 @@
         font-size: 14px;
     }
 }
+
 @media(max-width:800px){
     .cards{
         gap: 30px;
@@ -94,7 +95,6 @@
         font-size: 12px;
     }
     .bi-arrow-up-right2{
-        color: #A3C9F1;
         width: 18px;
         height: 18px;
     }
@@ -103,6 +103,7 @@
         height: 23px;
     }
 }
+
 @media(max-width:700px){
     .cards{
         gap: 20px;
@@ -119,12 +120,85 @@
         padding: 5px;
     }
 }
+
 @media(max-width:620px){
     .cards{
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center
+        justify-content: center;
+        margin: 30px auto 30px auto;
+        width: 300px;
+    }
+    .card-projeto-1 h3, .card-projeto-2 h3, .card-projeto-3 h3{
+        font-size: 18px;
+    }
+    .card-projeto-1 p, .card-projeto-2 p, .card-projeto-3 p{
+        font-size: 16px;
+    }
+    .card-projeto-1 span, .card-projeto-2 span, .card-projeto-3 span{
+        font-size: 12px;
+        padding: 6px;
+    }
+    .bi-arrow-up-right2{
+        width: 20px;
+        height: 20px;
+    }
+    .github2{
+        width: 25px;
+        height: 25px;
     }
 } 
-@media(max-width:480px){} 
-@media(max-width:320px){}
+
+@media(max-width:380px){
+    .cards{
+        margin: 20px auto 30px auto;
+        width: 250px;
+    }
+    .card-projeto-1 h3, .card-projeto-2 h3, .card-projeto-3 h3{
+        font-size: 16px;
+    }
+    .card-projeto-1 p, .card-projeto-2 p, .card-projeto-3 p{
+        font-size: 14px;
+    }
+    .card-projeto-1 span, .card-projeto-2 span, .card-projeto-3 span{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .bi-arrow-up-right2{
+        width: 18px;
+        height: 18px;
+    }
+    .github2{
+        width: 23px;
+        height: 23px;
+    }
+} 
+
+@media(max-width:290px){
+    .cards{
+        width: 220px;
+    }
+    .card-projeto-1 h3, .card-projeto-2 h3, .card-projeto-3 h3{
+        font-size: 14px;
+    }
+    .card-projeto-1 p, .card-projeto-2 p, .card-projeto-3 p{
+        font-size: 12px;
+    }
+    .card-projeto-1 span, .card-projeto-2 span, .card-projeto-3 span{
+        font-size: 8px;
+        padding: 4px;
+    }
+    .bi-arrow-up-right2{
+        width: 16px;
+        height: 16px;
+    }
+    .github2{
+        width: 21px;
+        height: 21px;
+    }
+}
+
+@media(max-width:250px){
+    .cards{
+        width: 180px;
+    } 
+}
