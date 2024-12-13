@@ -1,0 +1,29 @@
+.habilidades{
+    margin-top: 80px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.habilidades h2{
+    text-align: center;
+    color: #E6F0FA;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 32px;
+}
+
+.habilidades-cards{
+    display: flex;
+    justify-content: center;
+    margin: 28px 0;
+    gap: 20px;
+}
+
+/*Breakpoints*/
+@media(max-width:1200px){}
+@media(max-width:1024px){}
+@media(max-width:768px){}
+@media(max-width:480px){}
+@media(max-width:320px){}
