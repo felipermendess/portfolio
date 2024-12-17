@@ -170,6 +170,9 @@
 } 
 
 @media(max-width:480px){
+    .projetos{
+        margin-top: 60px;
+    }
     .projetos h2{
         font-size: 20px;
     }
@@ -231,6 +234,12 @@
         height: 21px;
     }
 } 
+
+@media(max-width:320px){
+    .projetos{
+        margin-top: 52px;
+    }
+}
 
 @media(max-width:290px){
     .cards{
