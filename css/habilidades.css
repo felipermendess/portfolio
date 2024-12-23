@@ -34,6 +34,12 @@
     }
 }
 
+@media(max-width:620px){
+    .habilidades-cards{
+        margin-top: 20px;
+    }
+}
+
 @media(max-width:480px){
     .habilidades{
         margin-top: 60px;
@@ -44,6 +50,7 @@
     .habilidades-cards{
         display: grid;
         grid-template-columns: repeat(4, 40px);
+        margin-top: 16px;
     }
 }
 
@@ -60,6 +67,7 @@
     .habilidades-cards{
         gap: 16px;
         grid-template-columns: repeat(3, 30PX);
+        margin-top: 14px;
     }
 }
 
