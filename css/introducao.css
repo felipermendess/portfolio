@@ -113,6 +113,9 @@
     .introducao-texto{
         display: none;
     }
+    .introducao-info{
+        margin-top: 26px;
+    }
 }
 
 @media(max-width: 480px){
@@ -135,6 +138,24 @@
     }
 }
 
+@media(max-width: 380px){
+    .introducao-info{
+        margin-top: 20px;
+    }
+    .introducao-info .cv{
+        padding: 6px;
+        font-size: 14px;
+    }
+    .bi-arrow-up-right1{
+        width: 12px;
+        height: 12px;
+    }
+    .github, .linkedin{
+        width: 30px;
+        height: 30px;
+    }
+}
+
 @media(max-width: 320px){
     .introducao{
         margin-top: 32px;
@@ -146,23 +167,14 @@
         font-size: 16px;
     }
     .introducao-info{
-        margin-top: 20px;
-    }
-    .introducao-info .cv{
-        padding: 6px;
-        font-size: 12px;
-    }
-    .bi-arrow-up-right1{
-        width: 12px;
-        height: 12px;
-    }
-    .github, .linkedin{
-        width: 30px;
-        height: 30px;
+        margin-top: 18px;
     }
 } 
 
 @media(max-width: 250px){
+    .introducao-info{
+        margin-top: 16px;
+    }
     .introducao-info .cv{
         padding: 5px;
         font-size: 10px;
@@ -176,3 +188,9 @@
         height: 25px;
     }
 } 
+
+@media(max-width: 200px){
+    .introducao-info{
+        flex-wrap: wrap;
+    }
+}
