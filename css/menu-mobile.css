@@ -1,3 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.header-menu a{
+    padding: 16px 0;
+    color: #E6F0FA;
+    font-family: 'Poppins';
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+}
+
+.header-menu a::after{
+    content: '';
+    display: block;
+    background-color: #E6F0FA;
+    width: 0px;
+    height: 2px;
+    margin-top: 4px;
+    transition: .3s;
+    position: absolute;
+}
+
+.header-menu a:hover::after{
+    width: 100%;
+}
+
 .buttonMenu{
     display: none;
 }
@@ -60,6 +101,12 @@
 }
 
 @media(max-width: 250px){
+    .header{
+        justify-content: left;
+    }
+    .logo{
+        display: none;
+    }
     .buttonMenu{
         font-size: 18px;
         padding: .5rem .1rem;
