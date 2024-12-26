@@ -1,3 +1,26 @@
 .contato{
     margin-top: 80px;
 }
+
+.contato h2{
+    text-align: center;
+    color: #E6F0FA;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+.contato p{
+    text-align: center;
+    color: #E6F0FA;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contato .redes-sociais{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
