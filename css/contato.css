@@ -24,3 +24,22 @@
     justify-content: center;
     gap: 30px;
 }
+
+/*Breakpoints*/
+@media(max-width:1200px){}
+@media(max-width:1024px){
+    .contato h2{
+        font-size: 28px;
+    }
+}
+@media(max-width:768px){
+    .contato h2{
+        font-size: 24px;
+    }
+}
+@media(max-width:480px){
+    .contato h2{
+        font-size: 20px;
+    }
+}
+@media(max-width:320px){}
