@@ -130,6 +130,9 @@
 }
 
 @media(max-width:480px){
+    .experiencia{
+        margin-top: 60px;
+    }
     .experiencia h2{
         font-size: 20px;
         margin-bottom: 16px;
@@ -146,6 +149,12 @@
     .conteudo-experiencia h3{
         font-size: 14px;
         margin-bottom: 16px;
+    }
+}
+
+@media(max-width:320px){
+    .experiencia{
+        margin-top: 52px;
     }
 }
 

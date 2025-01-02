@@ -45,11 +45,21 @@
 }
 
 @media(max-width:480px){
+    .contato{
+        margin-top: 60px;
+    }
     .contato h2{
         font-size: 20px;
         margin-bottom: 16px;
     }
 }
+
+@media(max-width:320px){
+    .contato{
+        margin-top: 52px;
+    }
+}
+
 
 @media(max-width:220px){
     .contato h2{
