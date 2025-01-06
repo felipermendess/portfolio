@@ -4,11 +4,11 @@ export default function scrollSuave(){
     function scrollToSection(event){
         const href = event.currentTarget.getAttribute('href');
         const section = document.querySelector(href);
-        section.scrollIntoView({
+        const topo = section.offsetTop;
+        window.scrollTo({
+            top: topo,
             behavior: "smooth",
-            block: "start",
-            inline: "start"
-        });
+        })
     }
     
     linksInternos.forEach(link => {
