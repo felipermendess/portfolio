@@ -1,8 +1,18 @@
 export default function scrollSuave(){
-    const projetos = document.getElementById('projetos');
-    const habilidades = document.getElementById('habilidades');
-    const experiencia = document.getElementById('experiencia');
-    const contato = document.getElementById('contato');
-
+    const linksInternos = document.querySelectorAll('.header-menu a[href^="#"]');
     
+    function scrollToSection(event){
+        const href = event.currentTarget.getAttribute('href');
+        const section = document.querySelector(href);
+        section.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "start"
+        });
+    }
+    
+    linksInternos.forEach(link => {
+        link.addEventListener('click', scrollToSection);
+    })
 }
+

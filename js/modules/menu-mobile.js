@@ -10,7 +10,6 @@ export default function menuMobile(){
             menuList.classList.add('active');
             document.querySelector('.icon').src = "img/closeMenu.svg";
         }
-        
     }
     
     buttonMenu.addEventListener('click', openMenu);
