@@ -1,7 +1,9 @@
 export default function scrollSuave(){
-    const linksInternos = document.querySelectorAll('.header-menu a[href^="#"]');
+    const linksInternos = document.querySelectorAll('a[href^="#"]');
+    const events = ['click', 'touchstart'];
     
     function scrollToSection(event){
+        event.preventDefault();
         const href = event.currentTarget.getAttribute('href');
         const section = document.querySelector(href);
         const topo = section.offsetTop;
@@ -12,7 +14,10 @@ export default function scrollSuave(){
     }
     
     linksInternos.forEach(link => {
-        link.addEventListener('click', scrollToSection);
+        events.forEach(evento => {
+            link.addEventListener(evento, scrollToSection);
+        })
     })
+
 }
 
