@@ -1,5 +1,5 @@
 .habilidades{
-    margin-top: 80px;
+    margin-top: 120px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +29,9 @@
 }
 
 @media(max-width:768px){
+    .habilidades{
+        margin-top: 80px;
+    }
     .habilidades h2{
         font-size: 24px;
     }
@@ -55,9 +58,6 @@
 }
 
 @media(max-width:320px){
-    .habilidades{
-        margin-top: 52px;
-    }
     .habilidades-cards{
         grid-template-columns: repeat(3, 40PX);
     }
