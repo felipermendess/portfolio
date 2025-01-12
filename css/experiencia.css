@@ -1,5 +1,5 @@
 .experiencia{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .experiencia h2{
@@ -66,7 +66,7 @@
 
 @media(max-width:768px){
     .experiencia{
-        margin-top: 80px;
+        margin-top: 60px;
     }
     .experiencia h2{
         font-size: 24px;
@@ -133,9 +133,6 @@
 }
 
 @media(max-width:480px){
-    .experiencia{
-        margin-top: 60px;
-    }
     .experiencia h2{
         font-size: 20px;
         margin-bottom: 16px;

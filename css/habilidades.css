@@ -1,5 +1,5 @@
 .habilidades{
-    margin-top: 120px;
+    margin-top: 80px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +30,7 @@
 
 @media(max-width:768px){
     .habilidades{
-        margin-top: 80px;
+        margin-top: 60px;
     }
     .habilidades h2{
         font-size: 24px;
@@ -44,9 +44,6 @@
 }
 
 @media(max-width:480px){
-    .habilidades{
-        margin-top: 60px;
-    }
     .habilidades h2{
         font-size: 20px;
     }
