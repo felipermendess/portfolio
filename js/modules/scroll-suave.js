@@ -5,19 +5,13 @@ export default function scrollSuave(){
         event.preventDefault();
         const href = event.currentTarget.getAttribute('href');
         const section = document.querySelector(href);
-        if(section){
-            const topo = section.offsetTop;
-            window.scrollTo({
-                top: topo,
-                behavior: "smooth",
-            })
-        }else{
-            console.log('Não foi possível encontrar nenhuma section!');
-        }
+        section.scrollIntoView({
+            behavior: 'smooth', 
+            block: 'start',
+        });
     }
     
     linksInternos.forEach(link => {
         link.addEventListener('click', scrollToSection);
     })
 }
-
