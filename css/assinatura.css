@@ -1,5 +1,5 @@
 .assinatura{
-    margin-top: 120px;
+    margin-top: 100px;
     text-align: center;
     color: #E6F0FA;
     font-family: 'Poppins';
@@ -8,7 +8,7 @@
 
 @media(max-width:380px){
     .assinatura{
-        margin-top: 60px;
+        margin-top: 80px;
     }
     .assinatura{
         font-size: 12px;
