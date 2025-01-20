@@ -3,7 +3,7 @@ export default function animacaoAoScroll() {
   if (sections.length) {
     const windowMetade = window.innerHeight * 0.9;
     function animaScroll() {
-      sections.forEach((section) => {
+      sections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top;
         const isSection = sectionTop - windowMetade < 0;
         if (isSection) {
