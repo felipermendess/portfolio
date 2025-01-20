@@ -5,4 +5,3 @@ import animacaoAoScroll from "./modules/animacao-ao-scroll.js";
 menuMobile();
 scrollSuave();
 animacaoAoScroll();
-

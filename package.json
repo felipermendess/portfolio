@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "O projeto consiste na criação de um currículo online com o objetivo de iniciar uma presença digital e promover minha carreira profissional. O foco principal é exibir meus projetos, habilidades e experiências de forma clara, profissional e visualmente atraente. O portfólio serve como uma vitrine para destacar minhas capacidades e conquistas, proporcionando uma maneira eficaz de divulgar minhas qualificações ao público.",
+  "main": "js/script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "prettier": "3.4.2"
+  }
+}
