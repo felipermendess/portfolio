@@ -9,8 +9,8 @@ export default [
     rules: {
       semi: "error",
       "no-undef": "error",
-      "no-unused-vars": "warn",
-      "no-console": "warn",
+      "no-unused-vars": "error",
+      "no-console": "error",
       eqeqeq: "error",
       "space-before-blocks": "error",
       indent: ["error", 2],
