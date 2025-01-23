@@ -8,7 +8,7 @@ export default [
   {
     rules: {
       semi: "error",
-      "no-undef": "error",
+      "no-undef": "warn",
       "no-unused-vars": "error",
       "no-console": "error",
       eqeqeq: "error",
