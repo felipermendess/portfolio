@@ -1,70 +1,72 @@
-.habilidades{
-    margin-top: 120px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
+.habilidades {
+  margin-top: 120px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
-.habilidades h2{
-    text-align: center;
-    color: #E6F0FA;
-    font-weight: 600;
-    font-family: 'Poppins';
-    font-size: 32px;
+.habilidades h2 {
+  text-align: center;
+  color: #e6f0fa;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 32px;
 }
 
-.habilidades-cards{
-    display: flex;
-    justify-content: center;
-    margin: 28px 0;
-    gap: 20px;
+.habilidades-cards {
+  display: flex;
+  justify-content: center;
+  margin: 28px 0;
+  gap: 20px;
 }
 
 /*Breakpoints*/
-@media(max-width:1024px){
-    .habilidades h2{
-        font-size: 28px;
-    }
+@media (max-width: 1024px) {
+  .habilidades h2 {
+    font-size: 28px;
+  }
 }
 
-@media(max-width:768px){
-    .habilidades{
-        margin-top: 80px;
-    }
-    .habilidades h2{
-        font-size: 24px;
-    }
+@media (max-width: 768px) {
+  .habilidades {
+    margin-top: 80px;
+  }
+  .habilidades h2 {
+    font-size: 24px;
+  }
 }
 
-@media(max-width:620px){
-    .habilidades-cards{
-        margin-top: 20px;
-    }
+@media (max-width: 620px) {
+  .habilidades-cards {
+    margin-top: 20px;
+  }
 }
 
-@media(max-width:480px){
-    .habilidades h2{
-        font-size: 20px;
-    }
-    .habilidades-cards{
-        display: grid;
-        grid-template-columns: repeat(4, 40px);
-        margin-top: 16px;
-    }
+@media (max-width: 480px) {
+  .habilidades h2 {
+    font-size: 20px;
+  }
+  .habilidades-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+    margin-top: 16px;
+  }
+  .habilidades-cards .php-icon {
+    height: 40px;
+  }
 }
 
-@media(max-width:320px){
-    .habilidades-cards{
-        grid-template-columns: repeat(3, 40PX);
-    }
+@media (max-width: 320px) {
+  .habilidades-cards {
+    grid-template-columns: repeat(3, 40px);
+  }
 }
 
-@media(max-width:220px){
-    .habilidades-cards{
-        gap: 16px;
-        grid-template-columns: repeat(3, 30PX);
-        margin-top: 14px;
-    }
+@media (max-width: 220px) {
+  .habilidades-cards {
+    gap: 16px;
+    grid-template-columns: repeat(3, 30px);
+    margin-top: 14px;
+  }
 }
-
