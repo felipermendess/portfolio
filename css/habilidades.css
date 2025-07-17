@@ -21,6 +21,10 @@
   gap: 20px;
 }
 
+.laravel-icon{
+  align-items: top;
+}
+
 /*Breakpoints*/
 @media (max-width: 1024px) {
   .habilidades h2 {
