@@ -16,7 +16,13 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin-bottom: 28px;
 } 
+
+.card-experiencia:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
 
 .conteudo-experiencia{
     color: #E6F0FA;

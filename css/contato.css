@@ -1,119 +1,135 @@
-.contato{
-    margin-top: 120px;
+.contato {
+  margin-top: 120px;
 }
 
-.contato h2{
-    text-align: center;
-    color: #E6F0FA;
-    font-weight: 600;
-    font-family: 'Poppins';
-    font-size: 32px;
-    margin-bottom: 28px;
+.contato h2 {
+  text-align: center;
+  color: #e6f0fa;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 32px;
+  margin-bottom: 28px;
 }
 
-.contato p{
-    text-align: center;
-    color: #E6F0FA;
-    font-family: 'Roboto';
-    font-size: 20px;
-    margin-bottom: 30px;
+.contato p {
+  text-align: center;
+  color: #e6f0fa;
+  font-family: "Roboto";
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
-.contato .redes-sociais{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+.contato .redes-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 /*Breakpoints*/
-@media(max-width:1024px){
-    .contato h2{
-        font-size: 28px;
-    }
+@media (max-width: 1024px) {
+  .contato h2 {
+    font-size: 28px;
+  }
 }
 
-@media(max-width:768px){
-    .contato{
-        margin-top: 80px;
-    }
-    .contato h2{
-        font-size: 24px;
-    }
+@media (max-width: 768px) {
+  .contato {
+    margin-top: 80px;
+  }
+  .contato h2 {
+    font-size: 24px;
+  }
 }
 
-@media(max-width: 720px){
-    .contato p{
-        font-size: 18px;
-    }
-    .contato .redes-sociais{
-        gap: 24px;
-    }
-    .logo-github, .logo-linkedin, .logo-instagram, .logo-zap, .logo-email{
-        width: 34px;
-        height: 34px;
-    }
+@media (max-width: 720px) {
+  .contato p {
+    font-size: 18px;
+  }
+  .contato .redes-sociais {
+    gap: 24px;
+  }
+  .logo-github,
+  .logo-linkedin,
+  .logo-instagram,
+  .logo-zap,
+  .logo-email {
+    width: 34px;
+    height: 34px;
+  }
 }
 
-@media(max-width: 620px){
-    .contato h2{
-        margin-bottom: 20px;
-    }
+@media (max-width: 620px) {
+  .contato h2 {
+    margin-bottom: 20px;
+  }
 }
 
-@media(max-width:480px){
-    .contato h2{
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-    .contato p{
-        font-size: 15px;
-        margin-bottom: 24px;
-    }
-    .contato .redes-sociais{
-        gap: 20px;
-    }
-    .logo-github, .logo-linkedin, .logo-instagram, .logo-zap, .logo-email{
-        width: 28px;
-        height: 28px;
-    }
+@media (max-width: 480px) {
+  .contato h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .contato p {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+  .contato .redes-sociais {
+    gap: 20px;
+  }
+  .logo-github,
+  .logo-linkedin,
+  .logo-instagram,
+  .logo-zap,
+  .logo-email {
+    width: 28px;
+    height: 28px;
+  }
 }
 
-@media(max-width: 360px){
-    .contato p{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+@media (max-width: 360px) {
+  .contato p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
-@media(max-width:250px){
-    .contato p{
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-    .contato .redes-sociais{
-        gap: 14px;
-    }
-    .logo-github, .logo-linkedin, .logo-instagram, .logo-zap, .logo-email{
-        width: 22px;
-        height: 22px;
-    }
+@media (max-width: 250px) {
+  .contato p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .contato .redes-sociais {
+    gap: 14px;
+  }
+  .logo-github,
+  .logo-linkedin,
+  .logo-instagram,
+  .logo-zap,
+  .logo-email {
+    width: 22px;
+    height: 22px;
+  }
 }
 
-@media(max-width:220px){
-    .contato h2{
-        margin-bottom: 14px;
-    }
+@media (max-width: 220px) {
+  .contato h2 {
+    margin-bottom: 14px;
+  }
 }
 
-@media(max-width:200px){
-    .contato p{
-        font-size: 12px;
-    }
-    .contato .redes-sociais{
-        gap: 10px;
-    }
-    .logo-github, .logo-linkedin, .logo-instagram, .logo-zap, .logo-email{
-        width: 20px;
-        height: 20px;
-    }
+@media (max-width: 200px) {
+  .contato p {
+    font-size: 12px;
+  }
+  .contato .redes-sociais {
+    gap: 10px;
+  }
+  .logo-github,
+  .logo-linkedin,
+  .logo-instagram,
+  .logo-zap,
+  .logo-email {
+    width: 20px;
+    height: 20px;
+  }
 }
